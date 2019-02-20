@@ -42,7 +42,7 @@ def process_results(source_list):
         source_object = Source(id,name,description)
         source_results.append(source_object)
 
-    
+    return source_results
 
 def get_news(id):
     '''Function thet gets the json response to our url request'''
@@ -82,7 +82,7 @@ def process_articles(news_list):
             news_object = News(title,author,description,url,urlToImage,publishedAt,content)
             news_results.append(news_object)
 
-    return news_results
+    
 
 # def process_articles(news_list):
 #     # print(news_list)
