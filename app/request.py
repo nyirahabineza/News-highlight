@@ -14,10 +14,10 @@ def get_sources(category):
     get_sources_url = source_base_url.format(category,api_key)
     print(get_sources_url)
     with urllib.request.urlopen(get_sources_url) as url:
-        
+        get_sources_data = url.read()
         get_sources_response = json.loads(get_sources_data)
 
-        source_results = None
+       
 
         if get_sources_response['sources']:
             source_results_list = get_sources_response['sources']
