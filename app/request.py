@@ -2,7 +2,7 @@ import urllib.request,json
 from .models import news
 from app import app
 
-News = news.News
+
 Source = news.Source
 #     global api_key,source_base_url,articles_base_url
 api_key = app.config['NEWS_API_KEY']
@@ -122,4 +122,4 @@ def search_news(news_id):
             search_news_articles = process_articles(search_news_list)
 
 
-   
+    return search_news_articles
