@@ -3,7 +3,7 @@ from .models import news
 from app import app
 
 News = news.News
-
+Source = news.Source
 #     global api_key,source_base_url,articles_base_url
 api_key = app.config['NEWS_API_KEY']
 source_base_url = app.config['NEWS_SOURCES_BASE_URL']
