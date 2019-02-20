@@ -17,7 +17,7 @@ def get_sources(category):
         get_sources_data = url.read()
         get_sources_response = json.loads(get_sources_data)
 
-       
+        source_results = None
 
         if get_sources_response['sources']:
             source_results_list = get_sources_response['sources']
@@ -42,7 +42,7 @@ def process_results(source_list):
         source_object = Source(id,name,description)
         source_results.append(source_object)
 
-    return source_results
+    
 
 def get_news(id):
     '''Function thet gets the json response to our url request'''
