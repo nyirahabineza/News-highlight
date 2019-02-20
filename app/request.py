@@ -82,7 +82,7 @@ def process_articles(news_list):
             news_object = News(title,author,description,url,urlToImage,publishedAt,content)
             news_results.append(news_object)
 
-    
+    return news_results
 
 # def process_articles(news_list):
 #     # print(news_list)
@@ -115,7 +115,7 @@ def search_news(news_id):
         search_news_data = url.read()
         search_news_response = json.loads(search_news_data)
 
-        search_news_articles = None
+        
 
         if  search_news_response['articles']:
             search_news_list = search_news_response['articles']
