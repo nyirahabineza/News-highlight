@@ -41,4 +41,4 @@ class Review:
             if review.news_id == id:
                 response.append(review)
 
-        
+        return response
