@@ -1,6 +1,6 @@
 ## project name 
 NEWS-HIGHLIGHT
-## date fev 20th, 2019
+fev 20th, 2019
 By Nyirahabineza cecile
 ## Description
 News Highlight is a web application that is meant to catch up hard workers on current affairs happening all over the world. The website has the home page, that has a list of all sources of news sorted in categories. A user will have to click on Read More on a specific source to view artciles on the site Click here to see the live site
