@@ -1,4 +1,4 @@
-
+{% extends 'base.html'%}
 {% import 'macros.html' as macro%}
 
 <!--Content block-->
@@ -18,7 +18,7 @@
 
 </div>
 <!-- Popular news -->
-<h3> Popular News</h3>
+
 <ul>
     {{ macro.displayNewList(popular)}}
 </ul>
