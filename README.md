@@ -7,7 +7,8 @@ News Highlight is a web application that is meant to catch up hard workers on cu
 
 
 ## Specifications
- ## Behavior	 View Articles on Everything ## Output
+ ## Behavior	 View Articles on Everything 
+ ## Output
 View Business sources
 View Entertainment sources
 View Sports sources
