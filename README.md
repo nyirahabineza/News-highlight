@@ -1,4 +1,5 @@
-## project name is NEWS-HIGHLIGHT
+## project name 
+NEWS-HIGHLIGHT
 fev 20th, 2019
 By Nyirahabineza cecile
 ## Description
@@ -45,8 +46,8 @@ No known errors if found drop a message on my profile
 - Bootstrap
 - Flask
 ## Support and contact details
-Contact me on 0782136949
- EMAIL:habcecile@gmail.com 
+Contact me on 0782136949/
+EMAIL:habcecile@gmail.com 
 
 ## License
 Copyright https://github.com/nyirahabineza/News-highlight.git year 2019(c) nyirahabineza cecile

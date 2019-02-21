@@ -1,0 +1,15 @@
+.container {
+    background-color:burlywood;
+    font-size:1px solid black;
+    font-family: sans-serif;
+}
+#search {
+    font-size: 20px;
+    background-color:burlywood;
+    color:bisque;
+    border: 0px;
+    border-radius: 1px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}

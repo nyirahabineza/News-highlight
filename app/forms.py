@@ -6,4 +6,4 @@ class ReviewForm(FlaskForm):
 
     title = StringField('Review title',validators=[Required()])
     review = TextAreaField('News review', validators=[Required()])
-    submit = SubmitField('Submit')
+    submit = SubmitField('Search')
