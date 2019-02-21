@@ -36,7 +36,7 @@ Prerequisites python3.6 Good internet connection For windows users: GitBash For 
 Setting up Flask
 Creating a Virtual Environment.
 Geting the News API ** To get our NEWS data through The News Database API, head on to https://newsapi.org/ and sign up for an account. ** Creating an API key ** First go to your accounts settings pageAccount settings ** Then click on the API menu on the leftApi Menu ** Click on create an API Key to generate a new API keyGenerate api key
-To start using this quiz use the following commands: **https://github.com/nyirahabineza/News-highlight.git 
+To start using this quiz use the following commands: ** https://mariceline.herokuapp.com/
 ## Known bugs
 No known errors if found drop a message on my profile
 
@@ -50,4 +50,4 @@ Contact me on 0782136949/
 EMAIL:habcecile@gmail.com 
 
 ## License
-Copyright https://github.com/nyirahabineza/News-highlight.git year 2019(c) nyirahabineza cecile
+Copyright  year 2019(c) nyirahabineza cecile
